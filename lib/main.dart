@@ -1,3 +1,4 @@
+import 'package:capuccino_app/detail_section.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,24 +13,17 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-            backgroundColor: Colors.white,
+        appBar: AppBar(),
+      body: const SingleChildScrollView(
+        child: Column(
+          children: [
+            DetailSection()
+        ],
+        )
       ),
       ),
     );
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        actions: const [Text("Detail")],
-      ),
-      );
-  }
-}
 

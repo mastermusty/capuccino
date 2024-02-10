@@ -60,11 +60,8 @@ flutter:
 
 
   assets:
-    - assets/images/arrow_left.jpg
-    - assets/images/bean.png
-    - assets/images/coffee_img.jpg
-    - assets/images/heart.jpg
-    - assets/images/milk.png
+    - assets/images/
+   
 
 
   fonts:
