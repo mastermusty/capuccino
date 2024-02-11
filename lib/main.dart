@@ -2,6 +2,7 @@ import 'package:capuccino_app/detail_section.dart';
 import 'package:capuccino_app/image-description_section.dart';
 import 'package:capuccino_app/image_section.dart';
 import 'package:capuccino_app/image_title_section.dart';
+import 'package:capuccino_app/rating_section.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
             DetailSection(),
             CapuccinoImage(),
             ImageName(),
-            ImageNameDescription()
+            ImageNameDescription(),
+            RatingCategory()
         ],
         )
       ),
