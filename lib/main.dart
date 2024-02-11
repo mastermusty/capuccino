@@ -1,4 +1,5 @@
 import 'package:capuccino_app/detail_section.dart';
+import 'package:capuccino_app/image_section.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       body: const SingleChildScrollView(
         child: Column(
           children: [
-            DetailSection()
+            DetailSection(),
+            CapuccinoImage()
         ],
         )
       ),
