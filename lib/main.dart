@@ -6,6 +6,8 @@ import 'package:capuccino_app/image_description_section.dart';
 import 'package:capuccino_app/image_section.dart';
 import 'package:capuccino_app/image_title_section.dart';
 import 'package:capuccino_app/rating_section.dart';
+import 'package:capuccino_app/size_body_section.dart';
+import 'package:capuccino_app/size_section.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +33,9 @@ class MyApp extends StatelessWidget {
             RatingCategory(),
             DividerCategory(),
             DescriptionHeader(),
-            DescriptionContent()
+            DescriptionContent(),
+            SizeHeader(),
+            SizeContent()
         ],
         )
       ),
