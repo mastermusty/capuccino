@@ -1,4 +1,5 @@
 import 'package:capuccino_app/detail_section.dart';
+import 'package:capuccino_app/divider_section.dart';
 import 'package:capuccino_app/image-description_section.dart';
 import 'package:capuccino_app/image_section.dart';
 import 'package:capuccino_app/image_title_section.dart';
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
             CapuccinoImage(),
             ImageName(),
             ImageNameDescription(),
-            RatingCategory()
+            RatingCategory(),
+            DividerCategory()
         ],
         )
       ),
