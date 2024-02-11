@@ -1,5 +1,6 @@
 import 'package:capuccino_app/detail_section.dart';
 import 'package:capuccino_app/image_section.dart';
+import 'package:capuccino_app/image_title_section.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         child: Column(
           children: [
             DetailSection(),
-            CapuccinoImage()
+            CapuccinoImage(),
+            ImageName()
         ],
         )
       ),
