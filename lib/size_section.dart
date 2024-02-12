@@ -6,7 +6,7 @@ class SizeHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    return const Padding(
-      padding: EdgeInsets.only(left: 45.0, top: 10.0),
+      padding: EdgeInsets.only(left: 50.0, top: 10.0, bottom:10.0),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

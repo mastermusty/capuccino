@@ -6,7 +6,7 @@ class ImageName extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    return const Padding(
-      padding: EdgeInsets.only(left: 45.0),
+      padding: EdgeInsets.only(left: 50.0),
       child: Row(
         children: [
           Text(
@@ -14,7 +14,7 @@ class ImageName extends StatelessWidget {
             style: TextStyle(
               fontFamily: "Sora",
               fontWeight: FontWeight.bold,
-              fontSize: 16.5,
+              fontSize: 20.5,
             ),
           )
         ],

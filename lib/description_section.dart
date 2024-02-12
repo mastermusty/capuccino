@@ -6,7 +6,7 @@ class DescriptionHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
      return const Padding(
-      padding: EdgeInsets.only(left: 45.0, top: 5.0),
+      padding: EdgeInsets.only(left: 50.0, top: 5.0),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
@@ -14,7 +14,7 @@ class DescriptionHeader extends StatelessWidget {
             "Description",
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: 16.0,
+              fontSize: 25.0,
               color: Colors.black,
             ),
           ),

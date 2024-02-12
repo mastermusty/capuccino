@@ -6,7 +6,7 @@ class ImageNameDescription extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
   return const Padding(
-      padding: EdgeInsets.only(left: 45.0, top: 4.5),
+      padding: EdgeInsets.only(left: 50.0, top: 4.5),
       child: Row(
         children: [
           Text(
